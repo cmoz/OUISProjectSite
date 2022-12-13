@@ -1,57 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{OUIS}</title>
+    <!-- for favicon -->
+    <link rel="icon" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style-ouis.css">
 </head>
+
 <body>
     <!--header element -->
     <header>
         <img src="img/farion.jpg">
-        <h1>{OUIS} Open Universal Input Sleeve</h1>
+        <h1><span>{OUIS}</span> Open Universal Input Sleeve</h1>
+        <br>
     </header>
 
     <!-- main element -->
     <main>
-        <h2>About OUIS</h2>
-        <p>Conductive fabric is fabric that conducts electricity. 
-            Typically there are metal strands woven into the fabric, or the metal strands might be woven with other fabrics, such as polyester. 
+        <h2>About <span>OUIS</span></h2>
+        <p>Conductive fabric is fabric that conducts electricity.
+            Typically there are metal strands woven into the fabric, or the metal strands might be woven with other
+            fabrics, such as polyester.
             Making e-textiles, wearables, and soft circuits often use conductive fabrics for a variety of projects.</p>
 
-    <h3>What are we making?</h3>
-    <p>In this project, we are creating an Open Universal Input Sleeve.
-        This adds touch input capabilities quickly and stylishly to your projects!</p>
-    <p>Why do you need the sleeve?
-        Using this sleeve, in any configuration can provide inputs for your electronic projects.
-        You can connect it to any circuit board and - use it for touch input (native on an ESP32 board, for example),
-        adding touch capabilities to any project.
-        If your microprocessor board doesn't have native touch capability,
-        you can use a touch library (ADCTouch, I'll provide a code example at the end of this guide) to add this to an
-        Arduino-based board.
-        Once you've followed along to create a basic sleeve, you can modify this in infinite ways! Share your creation -
-        what fabrics will you use?
-        How many touch inputs? What shapes and styles will you add?</p>
-        <iframe width="560" height="315" 
-        src="https://www.youtube.com/embed/zme4Qo2TWbA" 
-        title="YouTube video player" frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        <h3>What are we making?</h3>
+        <p>In this project, I created an <em>Open Universal Input Sleeve</em>.
+            This adds <span class="bolded">touch</span> input capabilities quickly and stylishly to your projects!</p>
+        <p>Why do you need the sleeve?
+            Using this sleeve, in any configuration can provide inputs for your electronic projects.
+            You can connect it to any circuit board and - use it for touch input (there is native touch pins
+            dedicated on an ESP32 board, for example),
+            adding touch capabilities to any project.</p>
+            <p>
+            If your microprocessor board doesn't have native touch capability,
+            you can use a <span class="bolded">touch library </span>(ADCTouch is an example for Arduino, 
+            I'll provide a code example at the end of this guide) to add this to
+            an Arduino-based board.
+            Once you've followed along to create a basic sleeve, you can modify this in infinite ways!</p>
+            <p>Share your creation:
+                <ul>
+                    <li>What fabrics will you use? </li>
+                    <li>How many touch inputs? </li>
+                    <li>What shapes and styles will you add?</li>
+                </ul>
+           I'd love to see your creations and projects.
+             </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zme4Qo2TWbA" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
         gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p>Watch the video for how this sleeve works.</p>
+        <hr>
         <H2>Resources for this project</H2>
-        <ol>
-            <li>Instructable to make the project</li>
-            <li>Code Link</li>
-        </ol>
+        <ul>
+            <li><a href="https://www.instructables.com/Touch-Me-Open-Universal-Input-Sleeve-OUIS/" target="_blank">Instructable to make the project</a></li>
+            <li><a href="https://github.com/cmoz/instructables/blob/main/OpenUniversalInputSleeve.ino" target="_blank">Circuit Playground Code</a></li>
+            <li><a href="https://github.com/martin2250/ADCTouch" target="_blank">ADC Touch Library Martin 2250</a></li>
+            <li><a href="http://www.tinkertailor.tech/" target="_blank">Conductive Fabrics available at Tinker Tailor Tech</a></li>
+            <li><a href="http://www.github.com/cmoz/instructables/blob/main/OUIS_ADCTouch.ino" target="_blank">Code for other Circuit boards</a></li>
+        </ul>
+        
+        <p>I hope you have a go at making this sleeve - you can cut the conductive fabric into any shape you want, 
+            and there are many different colours of conductive fabrics too!</p>
+        <br>
     </main>
     <!-- footer element -->
     <footer>
-        <h2>Information about me</h2>
-        <p>You can catch me on my 
-            <a href="https://christinefarion.com">personal site</a> 
-            <a href="https://twitter.com/cmoz">Twitter</a> and 
-            <a href="https://mastodon.social/@cmoz">Mastodon</a>, happy to help!</p>
+        <br>
+        <h2><span>Information about me</span></h2>
+        <p>You can catch me on my
+            <a href="https://christinefarion.com" target="_blank">personal site,</a>
+            <a href="https://twitter.com/cmoz" target="_blank">Twitter,</a> and
+            <a href="https://mastodon.social/@cmoz" target="_blank">Mastodon</a>, happy to help!
+        </p>
+        <br>
     </footer>
 </body>
+
 </html>
