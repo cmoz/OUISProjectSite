@@ -41,7 +41,7 @@ header img{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 30px; 
     /* adds a margin or buffer space above the heading */
     margin: 40px 0 10px;
 }
@@ -65,6 +65,7 @@ main img{
 
 main iframe{
     padding-inline: 70px;
+    margin:0 auto;
     /* border: 1px solid grey; */
     /* background-color: lightgrey; */
 }
